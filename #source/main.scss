@@ -62,9 +62,8 @@ h1, h2, h3, h4 {
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: transform var(--transition), opacity .5s ease;
+            transition: var(--transition), opacity .5s ease;
             will-change: transform;
-            transform-style: preserve-3d;
             &__content{
                 .frame__media{
                     position: relative;
@@ -93,7 +92,7 @@ h1, h2, h3, h4 {
             }
             h2 {
                 text-align: center;
-                font-size: calc(var(--index-size) * 3.2);;
+                font-size: calc(var(--index-size) * 3.2);
             }
             .text-right > *{
                 position: relative;
